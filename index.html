@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paweł Bęben | Portfolio</title>
+  <meta name="description" content="Paweł Bęben: lider PMO i zarządzania portfolio projektów. Po godzinach buduje strony, aplikacje, gry i analizy danych.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Przejdź do treści</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="site-name" href="#top">Paweł Bęben</a>
+      <nav aria-label="Sekcje strony">
+        <ul class="nav">
+          <li><a href="#o-mnie">O mnie</a></li>
+          <li><a href="#projekty">Projekty</a></li>
+          <li><a href="#umiejetnosci">Umiejętności</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <h1 class="hero__title">Zarządzam portfolio projektów. Po&nbsp;godzinach buduję własne.</h1>
+      <p class="hero__lead">Lider PMO i transformacji. Łączę portfolio, produkt, procesy, analizę biznesową i GenAI.</p>
+      <p class="hero__links">
+        <a class="button" href="#projekty">Zobacz projekty</a>
+        <a class="text-link" href="https://github.com/beniasty">GitHub</a>
+        <a class="text-link" href="https://www.linkedin.com/in/pbeben/">LinkedIn</a>
+      </p>
+    </section>
+
+    <section class="section wrap" id="o-mnie" aria-labelledby="o-mnie-title">
+      <h2 class="section__title" id="o-mnie-title">O mnie</h2>
+      <div class="prose">
+        <p>Na co dzień kieruję PMO i zarządzam portfolio projektów w energetyce odnawialnej. Pracuję na styku biznesu, produktu i technologii: porządkuję inicjatywy, ustalam priorytety i pomagam zespołom dowozić to, co naprawdę ważne.</p>
+        <p>Po godzinach sam buduję strony, aplikacje, gry i analizy danych, korzystając z AI. Tutaj zbieram te projekty.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" id="projekty" aria-labelledby="projekty-title">
+      <h2 class="section__title" id="projekty-title">Rejestr projektów</h2>
+      <p class="register-summary" id="register-summary"></p>
+
+      <div class="register" role="list" id="register">
+        <!-- Rows are rendered by main.js from the list in projects.js -->
+      </div>
+      <noscript><p>Włącz JavaScript, żeby zobaczyć listę projektów.</p></noscript>
+    </section>
+
+    <section class="section wrap" id="umiejetnosci" aria-labelledby="umiejetnosci-title">
+      <h2 class="section__title" id="umiejetnosci-title">Umiejętności</h2>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Zarządzanie</h3>
+          <ul>
+            <li>PMO i governance</li>
+            <li>Zarządzanie portfolio projektów</li>
+            <li>Agile</li>
+            <li>Product management</li>
+            <li>Analiza biznesowa</li>
+            <li>OKR</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Certyfikaty</h3>
+          <ul>
+            <li>PMP®</li>
+            <li>PRINCE2® Foundation</li>
+            <li>MoR® Foundation</li>
+            <li>Product Management Academy</li>
+            <li>Google Umiejętności Jutra AI 3.0</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Technologie i AI</h3>
+          <ul>
+            <li>GenAI w praktyce biznesowej</li>
+            <li>Claude Code</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>Git i GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="kontakt" aria-labelledby="kontakt-title">
+      <h2 class="section__title" id="kontakt-title">Kontakt</h2>
+      <p class="prose">Najszybciej złapiesz mnie na LinkedInie. Kod moich projektów jest na GitHubie.</p>
+      <ul class="contact">
+        <li><a href="https://www.linkedin.com/in/pbeben/">linkedin.com/in/pbeben</a></li>
+        <li><a href="https://github.com/beniasty">github.com/beniasty</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Paweł Bęben</p>
+    </div>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
